@@ -50,8 +50,8 @@ public class GenericToString {
 	}
 	
 	public static void main(String[] args) throws IllegalArgumentException, IllegalAccessException {
-		//Rectangle r = new Rectangle(new Point(1.2, 3.2), 5.5, 0.3);
-		//System.out.println(toString(r));
+		Rectangle r = new Rectangle(new Point(1.2, 3.2), 5.5, 0.3);
+		System.out.println(toString(r));
 		
 		
 		CircularList list = new CircularList();
